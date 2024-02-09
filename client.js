@@ -16,7 +16,7 @@ $(function () {
         $('#liveToast').toast({ autohide: false }).toast('show');
     });
 
-    $(document).on('keyup', function (e){
+    $(document).on('keyup', function (e) {
         if (e.keyCode === 27) {
             e.preventDefault();
 
